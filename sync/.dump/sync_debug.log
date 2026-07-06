@@ -1,0 +1,9 @@
+[2026-07-06 15:40:58] Exporting snapshot to: C:\INGRED-server\sync\.dump\IDE.xml
+
+[2026-07-06 15:41:00] command=export
+[2026-07-06 15:41:00] args=python C:\Program Files\CODESYS 3.5.16.10\CODESYS\ScriptDir\cds-text-sync\cli\external_engine\engine_cli.py export --project-root C:\INGRED-server\sync --snapshot C:\INGRED-server\sync\.dump\IDE.xml --view-root C:\INGRED-server\sync\project-view
+
+[2026-07-06 15:41:05] returncode=0
+[2026-07-06 15:41:00] Exporting from snapshot C:\INGRED-server\sync\.dump\IDE.xml to view root C:\INGRED-server\sync\project-view
+[2026-07-06 15:41:05] Export to XML folder complete.
+

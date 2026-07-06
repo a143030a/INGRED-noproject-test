@@ -1,0 +1,1939 @@
+{
+  "created": "2026-07-06T15:41:05",
+  "view_root": "project-view",
+  "ns": "",
+  "entries": [
+    {
+      "guid": "6470a90f-b7cb-43ac-9ae5-94b2338b4573",
+      "name": "Project Settings",
+      "type_guid": "8753fe6f-4a22-4320-8103-e553c4fc8e04",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\Project Settings.xml",
+      "hash": "e1d557bd864b12874f8714e51a452b62a791d4ff"
+    },
+    {
+      "guid": "8a3299d3-8499-4387-bbda-453f6f0c593d",
+      "name": "NonModObjects",
+      "type_guid": "9001d745-b9c5-4d77-90b7-b29c3f77a23b",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Resources\\Embedded\\NonModObjects.xml",
+      "hash": "8944678ded1d60cf9df7088f223982eeba1ee1ad"
+    },
+    {
+      "guid": "23fc5d53-13dc-4bd0-a9f0-dfdb1657a5c0",
+      "name": "MappingSettings",
+      "type_guid": "9001d745-b9c5-4d77-90b7-b29c3f77a23b",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Resources\\Embedded\\MappingSettings.xml",
+      "hash": "3283da0897cbd9d4a41cf2d6b47719acd3c60760"
+    },
+    {
+      "guid": "8e47fccb-85ac-4196-b98b-6620e5dc8c91",
+      "name": "Redundancy_settings_b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
+      "type_guid": "9001d745-b9c5-4d77-90b7-b29c3f77a23b",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Resources\\Embedded\\Redundancy_settings_b9282e15-c5f9-4491-a1b5-b8f6b59b5723.xml",
+      "hash": "ebb14ef268d8b2d69448c4b9ea11bd3480775f0e"
+    },
+    {
+      "guid": "11c0fc3a-9bcf-4dd8-ac38-efb93363e521",
+      "name": "Project Information",
+      "type_guid": "085afe48-c5d8-4ea5-ab0d-b35701fa6009",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\Project Information.xml",
+      "hash": "5a426009703d95ff963bdc37b80abdf543657a88"
+    },
+    {
+      "guid": "b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
+      "name": "Device",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\.cds-object.xml",
+      "hash": "fc775eb7705a80b5267e2f8196d74807f81bb835"
+    },
+    {
+      "guid": "b13850bb-6891-4c4f-ba87-dbdba950cdf8",
+      "name": "Plc Logic",
+      "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
+      "parent_guid": "b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\.cds-object.xml",
+      "hash": "8cef6f4dacfe2df0ca942ea204c09b65f53a3734"
+    },
+    {
+      "guid": "010c38a4-9557-4185-860a-a2d6ce9f62d9",
+      "name": "TK121_6",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\.cds-object.xml",
+      "hash": "484e26122ab8d3a9706d45b54f5f7918d3c16814"
+    },
+    {
+      "guid": "08e2da66-8be4-486a-a84e-b7b2a5fe2e2f",
+      "name": "ExtCrates",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\.cds-object.xml",
+      "hash": "1888b13a2468e42ae24aad4931406ec74b16be9d"
+    },
+    {
+      "guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "name": "Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "b13850bb-6891-4c4f-ba87-dbdba950cdf8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\.cds-object.xml",
+      "hash": "0bde6783668032eddcf865173ed574be7cca49f7"
+    },
+    {
+      "guid": "c1016f67-1803-45ab-a3f4-97871d6e21b1",
+      "name": "ModuleCP",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "010c38a4-9557-4185-860a-a2d6ce9f62d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\.cds-object.xml",
+      "hash": "aa367950366d52abe59fd5fe48198fd99415703f"
+    },
+    {
+      "guid": "fe63951a-f244-4fc7-934d-a73e77304634",
+      "name": "Modules",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "010c38a4-9557-4185-860a-a2d6ce9f62d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\Modules.xml",
+      "hash": "140f5921bc271a59a92ee8158ee05ee41e4ecb92"
+    },
+    {
+      "guid": "76c077a4-1ec9-4945-b889-2824546fa737",
+      "name": "ExtModules",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "010c38a4-9557-4185-860a-a2d6ce9f62d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ExtModules.xml",
+      "hash": "69408e5338e531e5bf6a07bad3494f3bf395444a"
+    },
+    {
+      "guid": "17a1ea5e-2c3b-4df1-aa2c-e49fe1dcb1d0",
+      "name": "TK121_10_Ext",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "08e2da66-8be4-486a-a84e-b7b2a5fe2e2f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\.cds-object.xml",
+      "hash": "c17aa1ede9f148ddeb7ba2ef0a1d1e96a590928d"
+    },
+    {
+      "guid": "d17885e1-2586-4773-b1cb-4d4bb92b5fe1",
+      "name": "TK121_10_Ext_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "08e2da66-8be4-486a-a84e-b7b2a5fe2e2f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\.cds-object.xml",
+      "hash": "2882e57480c1b556884d71207d3deabbe8c2efcf"
+    },
+    {
+      "guid": "68d240d4-6642-4f7a-b3f1-13546cdd4ea7",
+      "name": "\u041c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\\u041c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a.xml",
+      "hash": "b28bb8da30151e7b7df93d21fc02fb2c51111de0"
+    },
+    {
+      "guid": "70998732-af3a-4f96-92d1-a61e97ffdefb",
+      "name": "PLC_PRG",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\PLC_PRG.xml",
+      "hash": "04a3d50696c5224e12623a85c48d455996b9a7e8"
+    },
+    {
+      "guid": "051d5c1f-e935-4a8b-aa36-cd332c3d6f24",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\Task Configuration\\.cds-object.xml",
+      "hash": "c4fb21fd59496461dfdfa154a5e880d84b9b058d"
+    },
+    {
+      "guid": "45012cc1-e923-4d12-a194-607e851dedc7",
+      "name": "diagnostic",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\.cds-object.xml",
+      "hash": "d753b14de7984983a405a9f6f8e4220c8aa861c4"
+    },
+    {
+      "guid": "b119a1a0-8443-4e12-944d-13a6154e4a55",
+      "name": "GENERIC",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\.cds-object.xml",
+      "hash": "294e6e6f9215108e8575842b9fc2caec0f8fb1e8"
+    },
+    {
+      "guid": "822bda65-9cbe-4e48-812f-3e97d37c48c5",
+      "name": "ta113_ta114_output_nagruzka",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\.cds-object.xml",
+      "hash": "d891b8a092c28ccce9fe97374f7437d042f6cab8"
+    },
+    {
+      "guid": "0d440a1b-3f19-49f2-9d4b-ed6556335aa4",
+      "name": "td_output_test",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\.cds-object.xml",
+      "hash": "9b1d251256ffb924bf7a0ad2ef19236b0fb6656a"
+    },
+    {
+      "guid": "e84ef6ad-b01a-48c1-9a7e-6038666f5ec4",
+      "name": "sync_data_test",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\sync_data_test.xml",
+      "hash": "e474acf0a10d434f7b1bc50bbd22532e208ca0c6"
+    },
+    {
+      "guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "name": "TC112_A8_100_5ETH",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "c1016f67-1803-45ab-a3f4-97871d6e21b1",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\.cds-object.xml",
+      "hash": "cb2e8aaad70e301ab3c0125f84cddcb40c563eb1"
+    },
+    {
+      "guid": "fa975405-8d35-40e9-938e-fe2ab00ebb69",
+      "name": "ModuleTR",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "17a1ea5e-2c3b-4df1-aa2c-e49fe1dcb1d0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\ModuleTR\\.cds-object.xml",
+      "hash": "1536a3625525bd0c4d2f3ff745a83435ba01ce2b"
+    },
+    {
+      "guid": "914b6f15-4997-4fa4-8e3c-2db5cdc058d9",
+      "name": "Modules",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "17a1ea5e-2c3b-4df1-aa2c-e49fe1dcb1d0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\Modules\\.cds-object.xml",
+      "hash": "8129db4c136e9275c157d2cc37ea4fb89bb0a7a3"
+    },
+    {
+      "guid": "e5c57053-105a-41ac-bf71-35b63a18ba47",
+      "name": "ModuleTR",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "d17885e1-2586-4773-b1cb-4d4bb92b5fe1",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\ModuleTR\\.cds-object.xml",
+      "hash": "99c17c52fee9f00d1b9526b7d252017a61f4001e"
+    },
+    {
+      "guid": "5018c13b-2a48-446f-be21-d7188faacaa6",
+      "name": "Modules",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "d17885e1-2586-4773-b1cb-4d4bb92b5fe1",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\Modules\\.cds-object.xml",
+      "hash": "849d84bcaefcaa67772d63e0b73ca721de88ffdb"
+    },
+    {
+      "guid": "f0511856-554f-44c8-a1d5-298da2a96604",
+      "name": "GENERIC_REDUNDANCY",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "051d5c1f-e935-4a8b-aa36-cd332c3d6f24",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\\u041a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044f \u0437\u0430\u0434\u0430\u0447\\GENERIC_REDUNDANCY.xml",
+      "hash": "ca86ad4a2e6c8fbca51ba09192c48135d67b99ce"
+    },
+    {
+      "guid": "2868fef0-b22f-4b8f-9b4e-b362708844ff",
+      "name": "FUNS_COMPARE_READ_WRITE",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\.cds-object.xml",
+      "hash": "17bd1850b22516d3965d1252b1a0c07d45dc74ca"
+    },
+    {
+      "guid": "f2abb1a7-bebe-4f85-8a28-cf7d2cfdc349",
+      "name": "DIAG_CNTRES",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\.cds-object.xml",
+      "hash": "50613561e989877662b0d4a4ae9ce03fd2074835"
+    },
+    {
+      "guid": "b727cc3d-9080-464a-8cb3-e29723f19049",
+      "name": "struct_channels_output_input",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\.cds-object.xml",
+      "hash": "5cf081ca0f748d291d5329700ef1b4be5d40eaee"
+    },
+    {
+      "guid": "87e895f8-2bec-4536-964d-224de582b9fb",
+      "name": "GVL_number_of_devices",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\GVL_number_of_devices.xml",
+      "hash": "f8eac872060ba0331a47ed1ee785861043fa80fa"
+    },
+    {
+      "guid": "ae0682f2-749b-473a-9c42-cde47ecbf984",
+      "name": "check_send_all_data",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\check_send_all_data\\.cds-object.xml",
+      "hash": "3b3040e9ef29f2ac2a307384fca143c679bdbb2d"
+    },
+    {
+      "guid": "432ed0d1-9f9d-485f-b1f5-cf396b5287c6",
+      "name": "DIAG_OZU_USAGE",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_OZU_USAGE\\.cds-object.xml",
+      "hash": "c8e977bcbba2cae3c891422c7d3874f08c5fed7a"
+    },
+    {
+      "guid": "3a3faaaa-1e91-49a5-a268-b20490a0ba6d",
+      "name": "IO_Mapping",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\.cds-object.xml",
+      "hash": "a17832018c545468e3e2a1e8b98fff479896d740"
+    },
+    {
+      "guid": "baaada29-0b7b-48eb-8d99-b8b1aa4a061a",
+      "name": "REDUNDANCY",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\.cds-object.xml",
+      "hash": "343b844c6ea4b492d9abbc3eb37060ecb42fe1da"
+    },
+    {
+      "guid": "15646138-fc13-423d-989c-8a65f723f113",
+      "name": "ta_113_114_voltage",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\ta_113_114_voltage\\.cds-object.xml",
+      "hash": "c1196e1ff112baa1c1206b93570c8ebd67d26937"
+    },
+    {
+      "guid": "20386d47-f7d5-4872-adc0-3051bbff8d5b",
+      "name": "default_structs",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\default_structs\\.cds-object.xml",
+      "hash": "f132e7c89efb453a44c6c61116809e0a3a3c9354"
+    },
+    {
+      "guid": "0907e931-aeb9-44fa-bcbb-ddcea67e571c",
+      "name": "GVL_workers_value_TA_test",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\GVL_workers_value_TA_test.xml",
+      "hash": "644b580ca8906683eeccb6ea684f8c8058a25700"
+    },
+    {
+      "guid": "cfdd8020-e6a2-4263-a925-6cdbcb92a17c",
+      "name": "list_TD_output",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\list_TD_output.xml",
+      "hash": "c1bdf067245c20b5fa4bd826f70c177f098deaf7"
+    },
+    {
+      "guid": "6980ef79-2d72-488e-b88c-0ce28f2b716d",
+      "name": "FUN_test_TD",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\FUN_test_TD.xml",
+      "hash": "6a742cb8c78879f0e79d0390695d7de8ebf82818"
+    },
+    {
+      "guid": "35ad0eac-c853-4674-af22-167ac486c986",
+      "name": "struct_pointers_out_arrays_td114",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\struct_pointers_out_arrays_td114.xml",
+      "hash": "76df81185be79e7f634e25100ae5c096a170d90d"
+    },
+    {
+      "guid": "0a2cd2d5-f3e1-45cf-924d-6c19c1f4b5c7",
+      "name": "init_struct_pointers_out_arrays_TD114_output",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\init_struct_pointers_out_arrays_TD114_output.xml",
+      "hash": "1258d6f6557d7db7a2475650d4327b946fcb32d0"
+    },
+    {
+      "guid": "722330f4-5e16-4da3-8e68-ea1965897d4f",
+      "name": "increase_output_all_TD114_output",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\increase_output_all_TD114_output.xml",
+      "hash": "67860843ddd1eae57b9de115dedbe7e7320d6c22"
+    },
+    {
+      "guid": "004ea62e-13d4-419b-be61-433d4a2fb193",
+      "name": "GVL_workers_value_TD_test",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\GVL_workers_value_TD_test.xml",
+      "hash": "add71d83ebca4acdd969921129b6800ac4051e1d"
+    },
+    {
+      "guid": "9885a5ff-6d01-41e9-95dc-5c7e74f7453b",
+      "name": "FUN_RATIO_STAGE_VALUE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\td_output_test\\FUN_RATIO_STAGE_VALUE.xml",
+      "hash": "e01b30dd5b8f3c499a9f04849663c045bca753a1"
+    },
+    {
+      "guid": "c833fe35-5fb3-4ef2-8124-a5df0e13c091",
+      "name": "SoftModules",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\SoftModules\\.cds-object.xml",
+      "hash": "2e1eab205455f4120c03cfb8f2fed0a2b30f6e8f"
+    },
+    {
+      "guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "name": "HWInterfaces",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\.cds-object.xml",
+      "hash": "e5bacf043ac40fe20a36e1b71898e9f32dfe3827"
+    },
+    {
+      "guid": "e2f75f6f-fbe4-4c19-ba9a-0cd873106c40",
+      "name": "Peripheral",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\Peripheral.xml",
+      "hash": "14c1a711644bd2f7188274a3e404c0c3727bcfa7"
+    },
+    {
+      "guid": "4ebe7127-9a5b-4671-b085-4f8c6bb4f007",
+      "name": "CPU_INFO",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\CPU_INFO.xml",
+      "hash": "f32e9425a67ef75c3ac26a739547f61fbde6f265"
+    },
+    {
+      "guid": "7bfa81c9-ed17-4134-b6e9-73db00a0af02",
+      "name": "Redundancy",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\Redundancy.xml",
+      "hash": "da853d0b74b4c08123326a97cbbd2caac30a335e"
+    },
+    {
+      "guid": "e884d547-4bbf-42f7-8e6b-98bb930d5e0c",
+      "name": "CommSlots",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\CommSlots.xml",
+      "hash": "6a2e603e75dcf9c7577ae3e4974dc3e71f720ff0"
+    },
+    {
+      "guid": "f0adac66-1b57-4c49-9649-f0c74e58df4c",
+      "name": "NetControl",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\NetControl.xml",
+      "hash": "1dacb1a34a7a341717b61f9a93d16fb01042aeb3"
+    },
+    {
+      "guid": "16c58eb1-9c05-4a8f-8e21-63a4cd8ca345",
+      "name": "TR111",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "fa975405-8d35-40e9-938e-fe2ab00ebb69",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\ModuleTR\\TR111.xml",
+      "hash": "c3305e9987d7f04e91dfa233610ca1c6c7145f1e"
+    },
+    {
+      "guid": "7fd50eb3-63cb-4a3b-94d7-2c7b9f1cc5a6",
+      "name": "TD114",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "914b6f15-4997-4fa4-8e3c-2db5cdc058d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\Modules\\TD114.xml",
+      "hash": "effc3f7b0c3318657cf6d693b4976c6c3cb580dc"
+    },
+    {
+      "guid": "585d6406-3ebf-46fc-9cc4-6f15c29d5152",
+      "name": "TD115",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "914b6f15-4997-4fa4-8e3c-2db5cdc058d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\Modules\\TD115.xml",
+      "hash": "e712a798003f9992de04cf7b6cb6ff4395e543b9"
+    },
+    {
+      "guid": "c7b39162-4083-45be-bc96-54876f59ac87",
+      "name": "TA116_8",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "914b6f15-4997-4fa4-8e3c-2db5cdc058d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\Modules\\TA116_8.xml",
+      "hash": "9158a61883b2368fa9456e9dfbade9dd68a66370"
+    },
+    {
+      "guid": "e8589726-2c98-4fa1-9f12-6844d0dd5b89",
+      "name": "TA114",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "914b6f15-4997-4fa4-8e3c-2db5cdc058d9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext\\Modules\\TA114.xml",
+      "hash": "d8176b97a10d2bf0188b811ca3785f0a8f279ac4"
+    },
+    {
+      "guid": "f01c58f9-c8ba-487b-bffc-73d37466527f",
+      "name": "TR111_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "e5c57053-105a-41ac-bf71-35b63a18ba47",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\ModuleTR\\TR111_1.xml",
+      "hash": "205a5793e5f87b87c0ce644e3f70fafc542da933"
+    },
+    {
+      "guid": "9fbc9e4c-f283-4e33-898b-f8a9ed0278b5",
+      "name": "TD114_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "5018c13b-2a48-446f-be21-d7188faacaa6",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\Modules\\TD114_1.xml",
+      "hash": "e4897196a53f6a6c2f3dd8e90b47b0125901680b"
+    },
+    {
+      "guid": "9ff62a07-956e-4aa0-9dfd-75aa9834ff90",
+      "name": "TD115_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "5018c13b-2a48-446f-be21-d7188faacaa6",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\Modules\\TD115_1.xml",
+      "hash": "d1b71573c0cb1b63b993d4b5d345073e2e533610"
+    },
+    {
+      "guid": "85401888-d1c8-4c2c-a17f-1fa22e86bc43",
+      "name": "TA116_8_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "5018c13b-2a48-446f-be21-d7188faacaa6",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\Modules\\TA116_8_1.xml",
+      "hash": "e6de96c96799cab581463ee7fab279ce5dbfadfb"
+    },
+    {
+      "guid": "73662bab-5bc6-480d-a0cd-957852141d24",
+      "name": "TA114_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "5018c13b-2a48-446f-be21-d7188faacaa6",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\ExtCrates\\TK121_10_Ext_1\\Modules\\TA114_1.xml",
+      "hash": "cb78b55d101c23cdc8943ce4858801949e0ddb7f"
+    },
+    {
+      "guid": "70dbb63e-ac9b-4e62-a79c-7259e3df1113",
+      "name": "FUN_FIX_RELATION_MODULES",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\FUN_FIX_RELATION_MODULES.xml",
+      "hash": "65520b79d531e85bd62e3446419eabaa8509d7bf"
+    },
+    {
+      "guid": "d9d560f7-c596-4133-b9b3-780582ca0232",
+      "name": "FUN_DIAG_READ_WRITE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\FUN_DIAG_READ_WRITE.xml",
+      "hash": "bc5807f75bd6e74a94c3e3a393ad67275c15d918"
+    },
+    {
+      "guid": "5c02c2e2-56f7-47b0-84cd-80d47d3c9e11",
+      "name": "FUN_COUNT_MISMATCH_READ_WRITE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\FUN_COUNT_MISMATCH_READ_WRITE.xml",
+      "hash": "012a76af85ee89d481bc968c2fbc95f56bc0a39b"
+    },
+    {
+      "guid": "4e2379e9-9b2f-44eb-af6c-72110d2c11da",
+      "name": "GVL_compare_read_write_modules",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\GVL_compare_read_write_modules.xml",
+      "hash": "17c76f061742d7ca9e398318e49bb5745b91e342"
+    },
+    {
+      "guid": "45da6d92-7182-4e0f-9408-93bff85eb83d",
+      "name": "GVL_relation_modules",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\GVL_relation_modules.xml",
+      "hash": "3d07347d4be6333da6840073a1f77d7d09676dee"
+    },
+    {
+      "guid": "c3165d4d-a248-454c-a6e4-85214028466c",
+      "name": "MINI_FUNS_COUNT_MISMATCH_READ_WRITE",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\MINI_FUNS_COUNT_MISMATCH_READ_WRITE\\.cds-object.xml",
+      "hash": "261f270a8c5b1218e48765081ff95686c783ddeb"
+    },
+    {
+      "guid": "6405dd6a-ec8e-4f55-bf63-b67a801f4a88",
+      "name": "folder_structs_count_mismatch",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\folder_structs_count_mismatch\\.cds-object.xml",
+      "hash": "b61fe7fd3759bc823c72fd2eb5a2aa06b718bebf"
+    },
+    {
+      "guid": "a62146e2-88e5-4d66-b492-d0084c2b798c",
+      "name": "LOGS_ERRORS",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\LOGS_ERRORS\\.cds-object.xml",
+      "hash": "b9b23d7916e6b6c92edb7a5a263eb7148ee1ec84"
+    },
+    {
+      "guid": "7c4207ed-11d4-47e6-9f60-f16c2e6182b1",
+      "name": "FUN_COUNT_RESTART_MODULES",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\FUN_COUNT_RESTART_MODULES.xml",
+      "hash": "c97157f2c41eea4b65d458a6d62ec27a324558b5"
+    },
+    {
+      "guid": "981ab1e3-826f-4173-be05-8ba72d0e77ea",
+      "name": "FUN_FIX_STATUS_MODULES_RESTART_COUNTERS",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\FUN_FIX_STATUS_MODULES_RESTART_COUNTERS.xml",
+      "hash": "7cb92abb051dcc7b8151284b96456514c8154c46"
+    },
+    {
+      "guid": "a58e1723-0d8f-4f65-a293-7678d1895910",
+      "name": "FUN_DIAG_CNTRES",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\FUN_DIAG_CNTRES.xml",
+      "hash": "5a56f9c38d345bfc74659a62d58ef0be60cc8e4e"
+    },
+    {
+      "guid": "65065bde-9762-4aec-b037-e505ff395bc8",
+      "name": "GVL_FIXED_STATUS_MODULES_RESTART_COUNTERS",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\GVL_FIXED_STATUS_MODULES_RESTART_COUNTERS.xml",
+      "hash": "2cf57bb97577fcfe3160f9c4e1244f3157b6c87e"
+    },
+    {
+      "guid": "5f4ff347-475e-4085-b4f4-1d9df68d7ec3",
+      "name": "GVL_compare_cntres_modules",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_CNTRES\\GVL_compare_cntres_modules.xml",
+      "hash": "8979770e0285c4db9c9cd4bb6f2f915738e113cf"
+    },
+    {
+      "guid": "87d56e0f-de0d-4795-bcbb-bb8042cdef0b",
+      "name": "struct_channels_output_TN123MBS1_input_TN123MBM1",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TN123MBS1_input_TN123MBM1.xml",
+      "hash": "5b2b8dd510574f71839ffce3169dcceaaa0becaf"
+    },
+    {
+      "guid": "bff5f655-6c52-4ccf-9623-963d59a0565c",
+      "name": "struct_channels_output_TN123MBS2_input_TN123MBM2",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TN123MBS2_input_TN123MBM2.xml",
+      "hash": "754626bfe397dbc54a83d3e83477af0716c0b8a7"
+    },
+    {
+      "guid": "1bf45e6e-2ec8-42cb-ab94-734cfb21b6e2",
+      "name": "struct_channels_output_TD116_input_TD",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TD116_input_TD.xml",
+      "hash": "4ae12c293c9e60b73b5491f0e38c24dc4a63f2d5"
+    },
+    {
+      "guid": "0d5c7a7f-c1b3-4c62-a6c9-a831b1535959",
+      "name": "struct_channels_output_TD112_input_TD",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TD112_input_TD.xml",
+      "hash": "c84e2ea015b08de329036f7e50d3d151adb0c7a6"
+    },
+    {
+      "guid": "e7b14fb9-ca31-4c65-96f8-3920845fbe53",
+      "name": "struct_channels_output_TA113_input_TA",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TA113_input_TA.xml",
+      "hash": "af2ed67828f0bbad16aa74542d30fd77afbb3bfb"
+    },
+    {
+      "guid": "ab66ce97-3383-4bb6-a2d5-806fb270e466",
+      "name": "struct_channels_output_TA114_input_TA",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TA114_input_TA.xml",
+      "hash": "aaee5a4587c2ebe61aa220c75ca569b203a1f581"
+    },
+    {
+      "guid": "de56264f-bd45-40e5-baa7-98947df1a333",
+      "name": "struct_channels_output_TN123MBM1_input_TN123MBS1",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TN123MBM1_input_TN123MBS1.xml",
+      "hash": "aca6697ce3f5225e26547aabaa8bb74a7e88dc0f"
+    },
+    {
+      "guid": "e06db94f-cfb2-412f-accc-4e784dbf1f9d",
+      "name": "struct_channels_output_TN123MBM2_input_TN123MBS2",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TN123MBM2_input_TN123MBS2.xml",
+      "hash": "4b38f4cfdcd8f5955c74a4440264dca11483eadf"
+    },
+    {
+      "guid": "5fa76194-d6ec-4469-92a4-9fc74eecfffd",
+      "name": "struct_channels_output_TD114_input_TD",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_TD114_input_TD.xml",
+      "hash": "ae6720ffef4f710e0a756dbc1e418d33b6f5ab67"
+    },
+    {
+      "guid": "e9f2d97a-f860-40dc-9f0b-0e9bba35bdc3",
+      "name": "struct_channels_output_MBTCPM_input_MBTCPS",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_MBTCPM_input_MBTCPS.xml",
+      "hash": "0aebb97d9c7f5976f88a4330e799115495f2dfe0"
+    },
+    {
+      "guid": "064a1fac-31f5-442b-aed1-12553f2d3ff1",
+      "name": "struct_channels_output_MBTCPS_input_MBTCPM",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\struct_channels_output_input\\struct_channels_output_MBTCPS_input_MBTCPM.xml",
+      "hash": "859d1733dbbf9bd05b27ed77740e6aab9d606aed"
+    },
+    {
+      "guid": "8fca0031-284c-49e1-b1f5-b68febbbbc34",
+      "name": "check_send_all_data",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\check_send_all_data\\check_send_all_data.xml",
+      "hash": "32063f2ab9a30ebaeacc709844bebd0d89bba81a"
+    },
+    {
+      "guid": "4ab60ada-c922-4099-8a75-f5c632dde090",
+      "name": "FUN_DIAG_OZU_USAGE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_OZU_USAGE\\FUN_DIAG_OZU_USAGE.xml",
+      "hash": "1b708f8b3152284a60376d68664c0979ecb6ba29"
+    },
+    {
+      "guid": "dd59ece5-e2cd-4d5b-8a8f-038aacaea58c",
+      "name": "GVL_DIAG_OZU_USAGE",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_OZU_USAGE\\GVL_DIAG_OZU_USAGE.xml",
+      "hash": "5c526549475140e6a017cb7b425b5de8107bc268"
+    },
+    {
+      "guid": "0e48a89f-dcbf-4ef6-8cf8-956660e07b58",
+      "name": "GVL_workers_values_DIAG_OZU_USAGE",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_OZU_USAGE\\GVL_workers_values_DIAG_OZU_USAGE.xml",
+      "hash": "efe3aa4a8b626620f2868847d014edb6078da0d5"
+    },
+    {
+      "guid": "5b7bb373-63fd-48d0-8298-741c3c323814",
+      "name": "FB_utechka_pamyati",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\DIAG_OZU_USAGE\\FB_utechka_pamyati.xml",
+      "hash": "2101fa519e78f114e8c4fde2f1fcd4979323af32"
+    },
+    {
+      "guid": "74996ad1-acfe-4bc0-ae0a-f1a8ad29feca",
+      "name": "GVL_TC112_A8_100_5ETH",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TC112_A8_100_5ETH.xml",
+      "hash": "8710bcd703671e7a6b16e1c66ba1a358031c8c2f"
+    },
+    {
+      "guid": "7c73403f-0c21-4449-9d22-b08b03bae794",
+      "name": "GVL_Lan1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Lan1.xml",
+      "hash": "0f6321385fa5f6a076829bac734b340e7c263518"
+    },
+    {
+      "guid": "683d7008-76b1-4073-9624-e345501ee34d",
+      "name": "GVL_Lan2",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Lan2.xml",
+      "hash": "6549a63552592bc20d9a759a399024e0c824f2b7"
+    },
+    {
+      "guid": "6e7213d8-286f-4b51-9084-b02ebac3a018",
+      "name": "GVL_Lan3",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Lan3.xml",
+      "hash": "046887d429b9fd4e550f2f9b1c7143079e0b9bdd"
+    },
+    {
+      "guid": "c578ba25-34c3-4582-97bc-61911c982077",
+      "name": "GVL_Lan4",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Lan4.xml",
+      "hash": "dd7e4ec072cb9814b7e3ed20bb783113a15b99f3"
+    },
+    {
+      "guid": "6efdc240-44a4-4add-ae9e-288ebfc78746",
+      "name": "GVL_Lan5",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Lan5.xml",
+      "hash": "87bd226c15edfd2ef2631d02f0205a1c5a3ed77e"
+    },
+    {
+      "guid": "b8be5dae-ff0b-4fca-a860-11aec9fed2fe",
+      "name": "GVL_Peripheral",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Peripheral.xml",
+      "hash": "02adf67c5d477ba7a6fe9796b99cfc93c08b9c27"
+    },
+    {
+      "guid": "72f2b400-6bcb-4b85-b34f-095f58a80630",
+      "name": "GVL_TR111",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TR111.xml",
+      "hash": "23f24f36d473fbc432900b0611d192ef7b6d842c"
+    },
+    {
+      "guid": "2993c565-7371-4713-9ad9-87031ba71939",
+      "name": "GVL_TD114",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TD114.xml",
+      "hash": "1eada6bd8b0848ed2082b4bd94827b2c8c391293"
+    },
+    {
+      "guid": "192c6eac-3d77-416d-819d-462dab9e9f6f",
+      "name": "GVL_TD115",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TD115.xml",
+      "hash": "ead56e03805fa5bc39620ff69b12760b10fec74a"
+    },
+    {
+      "guid": "2a67bfc9-2e63-4616-abfc-e83380767618",
+      "name": "GVL_TA116_8",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TA116_8.xml",
+      "hash": "9eb2dca4c3e59676c990aeb0e1e9b3bbd766ff38"
+    },
+    {
+      "guid": "7c7ae5f4-2018-406e-bec6-4311db137fb1",
+      "name": "GVL_TA114",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TA114.xml",
+      "hash": "74dff065669b0615072dcb4c5a336e16e136578e"
+    },
+    {
+      "guid": "937ff03e-6e7a-49b9-ac78-179c8b410540",
+      "name": "GVL_TR111_1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TR111_1.xml",
+      "hash": "56dfe1d8bacba54d13f7d103245e082392225d3f"
+    },
+    {
+      "guid": "71e07f60-3fcc-4630-bfd5-789bb5c0bcd1",
+      "name": "GVL_TD114_1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TD114_1.xml",
+      "hash": "9674e11902e08e9fa23603023d185054b44fcaa0"
+    },
+    {
+      "guid": "75f405ef-8b31-4f23-b376-63ff8bb27bfb",
+      "name": "GVL_TD115_1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TD115_1.xml",
+      "hash": "91cc11e92f9fcb2ecb525cce69f256f13ee07985"
+    },
+    {
+      "guid": "d79c5c97-33a0-42fc-8f32-4e52f91ae5b4",
+      "name": "GVL_TA116_8_1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TA116_8_1.xml",
+      "hash": "d9e29f5f037079d760668a1724f1792826bbece6"
+    },
+    {
+      "guid": "ebe8792a-f9cd-441f-93c5-06811e76eab6",
+      "name": "GVL_TA114_1",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_TA114_1.xml",
+      "hash": "9890f2bc1e5f8b558d1ee61bc980af18d93be69e"
+    },
+    {
+      "guid": "67f33513-a75a-4811-aee7-80b99815f8d4",
+      "name": "GVL_tsync",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_tsync.xml",
+      "hash": "7a1baecd01c6556240f1e5c5b5267441d365b85d"
+    },
+    {
+      "guid": "668a16c5-802d-46ea-8657-7f22d37afd16",
+      "name": "GVL_Redundancy",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\IO_Mapping\\GVL_Redundancy.xml",
+      "hash": "c3f092174b3c7bbeeea4f29f1fcdd30ec07e8320"
+    },
+    {
+      "guid": "10c04764-a3d4-4b58-be42-91f9f0497c4e",
+      "name": "TYPES",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\TYPES\\.cds-object.xml",
+      "hash": "998dab93289a51d018889c749e11bc875eead648"
+    },
+    {
+      "guid": "9490f50a-c74a-4586-83e2-a13a53e9fc71",
+      "name": "POUs",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\POUs\\.cds-object.xml",
+      "hash": "062f3209fbdde63bd068521882dc17f07e9e09a0"
+    },
+    {
+      "guid": "caa1149d-a521-418f-b963-aa684b5973ad",
+      "name": "FUNs",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\FUNs\\.cds-object.xml",
+      "hash": "be6f50dfdcc6fefc76b1ebcc1c888a6e720fe11c"
+    },
+    {
+      "guid": "cfe08ffa-207d-4187-8c7f-7b7ac0b985f4",
+      "name": "list_TA_voltage_output",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\ta_113_114_voltage\\list_TA_voltage_output.xml",
+      "hash": "6fbb88ff9556c972e3055b023ad51eeb11ae0bdb"
+    },
+    {
+      "guid": "fabf0bf4-e50a-45b7-b0a8-52b0467b5142",
+      "name": "FUN_test_TA_voltage",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\ta_113_114_voltage\\FUN_test_TA_voltage.xml",
+      "hash": "d92f458180038e7a49974feca6288ca5b59af671"
+    },
+    {
+      "guid": "057a0874-a866-4af8-8758-6db6461c8f14",
+      "name": "increase_output_all_Ta114_voltage_output",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\ta_113_114_voltage\\increase_output_all_Ta114_voltage_output.xml",
+      "hash": "b2c915a648166ca6b96b7629b545799119c222d4"
+    },
+    {
+      "guid": "ada8048f-c24a-4e7e-afbe-843450e00da1",
+      "name": "init_struct_pointers_out_arrays_TA114_voltage",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\ta_113_114_voltage\\init_struct_pointers_out_arrays_TA114_voltage.xml",
+      "hash": "8d4e83dbb5740e2ade7b2e71ddd411fb38424acb"
+    },
+    {
+      "guid": "302d168b-bb88-4acd-8116-1947dda8add1",
+      "name": "struct_pointers_out_arrays_ta",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\ta113_ta114_output_nagruzka\\default_structs\\struct_pointers_out_arrays_ta.xml",
+      "hash": "49e550ee07473e9ac2f6570afdefdcbf9227ee94"
+    },
+    {
+      "guid": "360b5f88-7953-4486-90a2-ce4354e20844",
+      "name": "tsync",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "c833fe35-5fb3-4ef2-8124-a5df0e13c091",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\SoftModules\\tsync.xml",
+      "hash": "fb826ed7968b7d95330696eacbea7d48242298ef"
+    },
+    {
+      "guid": "b03da104-f937-40a2-85b8-cc2737690bde",
+      "name": "Lan1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\Lan1.xml",
+      "hash": "ea50582f111ff00b72d548121d61a29c98a5c286"
+    },
+    {
+      "guid": "6e086736-b313-42d8-9926-84b68991126d",
+      "name": "Lan2",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\Lan2.xml",
+      "hash": "2f55d4f2e6f3b32926bcd959a88039bf9d7433e3"
+    },
+    {
+      "guid": "7ea6b2e8-cbb1-4255-b5f5-7d74866d413a",
+      "name": "Lan3",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\Lan3.xml",
+      "hash": "89f3c338a5438cc8a6f05f9f391c8f922a0b877d"
+    },
+    {
+      "guid": "e51ac549-fa86-49bb-acc9-1398ffa830bc",
+      "name": "Lan4",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\Lan4.xml",
+      "hash": "4352f6ccd48d272d4740c2d0a9adc1fe4e9aa826"
+    },
+    {
+      "guid": "45050ac4-6573-44bd-99d2-b7efd3b720a7",
+      "name": "Lan5",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "3251db99-e63f-41b3-a22b-577104b1fdb8",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\TK121_6\\ModuleCP\\TC112_A8_100_5ETH\\HWInterfaces\\Lan5.xml",
+      "hash": "cc33352d1057a251d2e8be60018cd05138a6c406"
+    },
+    {
+      "guid": "2a95b8f8-1095-40e7-8e34-95c88b7ff0d1",
+      "name": "TD_COUNT_MISMATCH_READ_WRITE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\MINI_FUNS_COUNT_MISMATCH_READ_WRITE\\TD_COUNT_MISMATCH_READ_WRITE.xml",
+      "hash": "2b2b701c138f44165a20693a3e78be234ad4b4c7"
+    },
+    {
+      "guid": "9f262208-1237-4fb8-838c-c1d33a132038",
+      "name": "str_count_mismatch_output_TD114_input_TD",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\folder_structs_count_mismatch\\str_count_mismatch_output_TD114_input_TD.xml",
+      "hash": "08129dfae449bbea0d4464e869ba3463fe521605"
+    },
+    {
+      "guid": "c1cd5d8c-a49e-464b-b84e-31485b31a67c",
+      "name": "struct_discrete_moudles_logs_errors",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\diagnostic\\FUNS_COMPARE_READ_WRITE\\LOGS_ERRORS\\struct_discrete_moudles_logs_errors.xml",
+      "hash": "d2fd26346c6b84ccf881c01f1839b711a0d1d665"
+    },
+    {
+      "guid": "465f6e34-2287-4524-a6a7-9151d598d309",
+      "name": "UserContextStruct",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\TYPES\\UserContextStruct.xml",
+      "hash": "c246ed0193ed9df1a3f761dea9a6e690c2b6dc01"
+    },
+    {
+      "guid": "096286fb-8d8d-49a1-9524-599de95fc85b",
+      "name": "ExtMainContextStruct",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\TYPES\\ExtMainContextStruct.xml",
+      "hash": "3435eae3d316c02a5729cbb46b28b74161926967"
+    },
+    {
+      "guid": "779d2967-6b95-40cd-b98a-38bbfd0437dc",
+      "name": "ExtReserveContextStruct",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\TYPES\\ExtReserveContextStruct.xml",
+      "hash": "077a82bc7bfada9e110fce366e6eb13521e8f9e9"
+    },
+    {
+      "guid": "c99dd829-eadf-4d50-8db5-83d3b3706dff",
+      "name": "REDUNDANCY_FROM_DATA_TO_CONTEXT",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\POUs\\REDUNDANCY_FROM_DATA_TO_CONTEXT.xml",
+      "hash": "ff30989cd2b947308842783be3eb3582060b9193"
+    },
+    {
+      "guid": "f01dbd86-e1e7-4f60-a945-8cc56d6389f2",
+      "name": "REDUNDANCY_FROM_CONTEXT_TO_DATA",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\POUs\\REDUNDANCY_FROM_CONTEXT_TO_DATA.xml",
+      "hash": "e35d3f8fb659352077d90520bd06782c8f4b2b7c"
+    },
+    {
+      "guid": "3b2b6f8b-90a5-427d-a7a7-b5483fde4fd6",
+      "name": "REDUNDANCY_MAIN",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\POUs\\REDUNDANCY_MAIN.xml",
+      "hash": "616c07221cec29be9f6ed60d27ed8b74635f8ece"
+    },
+    {
+      "guid": "31f1f397-8abf-4c21-8599-cc0cdbf1c951",
+      "name": "REDUNDANCY_ActiveState",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\FUNs\\REDUNDANCY_ActiveState.xml",
+      "hash": "3ac768049cd76c8d6beedf385a5f4d3ae92e5304"
+    },
+    {
+      "guid": "59b43cf0-32d4-41dd-a575-d3080049ad0f",
+      "name": "REDUNDANCY_StandAloneState",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\FUNs\\REDUNDANCY_StandAloneState.xml",
+      "hash": "880047c8a2a34019c5b39e73a6fd9f6f7f5ce876"
+    },
+    {
+      "guid": "b4915803-8a60-417a-a1b5-2639f54f9588",
+      "name": "REDUNDANCY_StandbyState",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\GENERIC\\REDUNDANCY\\FUNs\\REDUNDANCY_StandbyState.xml",
+      "hash": "b53a91179d93de51f7f0072448af9e930a84b490"
+    }
+  ]
+}

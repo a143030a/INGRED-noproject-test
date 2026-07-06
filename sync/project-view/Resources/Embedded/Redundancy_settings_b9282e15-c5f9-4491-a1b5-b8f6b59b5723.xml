@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">8e47fccb-85ac-4196-b98b-6620e5dc8c91</Single>
+        <Single Name="ParentGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="Name" Type="string">Redundancy_settings_b9282e15-c5f9-4491-a1b5-b8f6b59b5723</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">9001d745-b9c5-4d77-90b7-b29c3f77a23b</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639136627418747634</Single>
+      </Single>
+      <Single Name="Object" Type="{9001d745-b9c5-4d77-90b7-b29c3f77a23b}" Method="IArchivable">
+        <Single Name="AutoUpdateMode" Type="string">Prompt</Single>
+        <Array Name="Data" Type="byte">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</Array>
+        <Single Name="LastModification" Type="System.DateTime" />
+        <Single Name="Frozen" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      <Array Name="Path" Type="string" />
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

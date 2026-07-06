@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">8a3299d3-8499-4387-bbda-453f6f0c593d</Single>
+        <Single Name="ParentGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="Name" Type="string">NonModObjects</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">9001d745-b9c5-4d77-90b7-b29c3f77a23b</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639136627414625039</Single>
+      </Single>
+      <Single Name="Object" Type="{9001d745-b9c5-4d77-90b7-b29c3f77a23b}" Method="IArchivable">
+        <Single Name="AutoUpdateMode" Type="string">Prompt</Single>
+        <Array Name="Data" Type="byte">hZXNbttHDMTvBfoOhu+0yCV3SQaO8wJNe+ilV+5X4qKxi9io8/ilgLZADovqIgj6D0gNfzO6//Dtyx83f62vL4/PT+9v6Q5vPzz8+MP9z89PH5/nL/33NV5fbvKZp5d3314e399+fn39893l8vb2dvfGd89fP10KIl1++/jTr+Pz+hLw+PTyGk9j3f6nmv+vus2ZNzf3/8x76EQeFAgmwiCLCrjIBOJoVGVJ1Hp/+ffp76QcvCNfQMsJxKNClGbQC4pjYI82D1IV9xaTIMZeIH0gxMKATWExi+814iQdyoK8AUfJqSIOPkuBjtaReyx1OUib8VREA209pagM3orAYqkVaeX7aeG2tBBPg2Jt58KVwNEkp5bVY3Ag2UE6qlqPUoFlpMPV0mHtAxo50XArqHqcuucogvkzQ0BizrTJVy5hq++hptIO0m591RkL9sYOskdAWEMgijXS31n2OjlcdumCCK2PlHar0FnScK+7Whg2xoO0uPOorYKypsNK6XBMB1Nk6qHk7AcpeRltxYC8kYJQm2DkE6SVGd2X77ZPU6Np2uFQVkuHGzWI/AzLmA21aTseJ2mKVbdAyQMmEm1BX6OBMNHsxLo7HaSeX27kBclGJP7dk2Y1IPVhXQirnGxSWqg7r8F7jFyYEfqe6Zp573VgH/M0VXNZrGuDdU6Hd+E8jjZovLf1XtKIfpDOXKwOV+DEFaSkQ7a5ZOhr2Z5c1H5KzurL1EsG1EeeRGjD9dCAzYiW5t36CcSmm7kmCKE1bcrnk+GlYNjdjeq2eZras1xmFAfsmiAm82DTHZJtipDARqeWIBwo2gSCp1zzmrW0JJNH23fWkw454Y/ZCRny6yyb11rLqNdsieo+V0ZgWD05rJpV5E0zOV6TpvSquwVwXmZPFNY5TjRlZe6aFThU4toSDYxXgcgirpz0Dz0hMXKxaWnTipndNGuW+ew19ZOTDWxzn5KzMSmfOWvlFZOmRDJcUjoyxbOx+S6nqRFEkgGNeu1hsp2/NeMX0Sz9duU4lmmzoJb4GJZrwFeAtaqgu5TJGnvSdzTdX777j3z4Gw==</Array>
+        <Single Name="LastModification" Type="System.DateTime" />
+        <Single Name="Frozen" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      <Array Name="Path" Type="string" />
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

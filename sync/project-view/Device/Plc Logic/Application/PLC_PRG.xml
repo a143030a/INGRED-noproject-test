@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">70998732-af3a-4f96-92d1-a61e97ffdefb</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">PLC_PRG</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639189492272443668</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">14</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">sync_data_test.timer_nagr_test_1();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">15</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">sync_data_test.timer_nagr_test_2();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">16</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">17</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF (local_start_prg = FALSE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">18</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	count_start := count_start + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">19</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	local_start_prg := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">27</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">28</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">29</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF (sync_data_test.timer_nagr_test_1.Q = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">30</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF (sync_data_test.flag_start_diag_cntres = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">31</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		FUN_DIAG_CNTRES();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">32</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">33</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF (sync_data_test.flag_start_diag_read_write = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">34</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		FUN_DIAG_READ_WRITE();  // ??</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">35</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">36</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF (sync_data_test.flag_start_diag_ozu_usage = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">37</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		FUN_DIAG_OZU_USAGE();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">38</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">39</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	sync_data_test.timer_nagr_test_1(IN := FALSE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">40</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	sync_data_test.timer_nagr_test_2(IN := TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">49</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">50</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">51</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">IF sync_data_test.timer_nagr_test_2.Q = TRUE THEN </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">52</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF (( GVL_Redundancy.StatePLCCur = 1) OR ( GVL_Redundancy.StatePLCCur = 3)) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">53</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF (sync_data_test.FLAG_START_ALL_TESTS &lt;&gt; sync_data_test.predflagstartalltests) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">54</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF (sync_data_test.FLAG_START_ALL_TESTS = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">55</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_cntres := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">56</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_read_write := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">61</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_ozu_usage := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">62</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_ta_voltage := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">64</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_td := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">71</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_td114 := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">72</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.predflagstartalltests := TRUE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">73</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">74</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF (sync_data_test.FLAG_START_ALL_TESTS = FALSE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">75</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_cntres := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">76</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_read_write := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">81</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_start_diag_ozu_usage := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">82</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_ta_voltage := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">84</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_td := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">91</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.flag_test_td114 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">92</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				sync_data_test.predflagstartalltests := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">93</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">97</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">98</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF(sync_data_test.flag_test_ta_voltage = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">99</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			FUN_test_TA_voltage();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">103</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">104</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF(sync_data_test.flag_test_td = TRUE) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">105</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			FUN_test_TD();</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">121</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">122</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">123</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	sync_data_test.timer_nagr_test_1(IN := TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">124</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	sync_data_test.timer_nagr_test_2(IN := FALSE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">125</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">126</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">127</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Testing no .project commit</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">128</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// Server (06.07.2026, 15:40)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">PROGRAM PLC_PRG</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	local_start_prg : BOOL := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">9</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR RETAIN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">10</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	count_start : UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">128</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

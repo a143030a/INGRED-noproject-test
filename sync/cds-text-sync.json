@@ -1,0 +1,11 @@
+{
+  "backup_retention_count": 10, 
+  "layout": "project-view", 
+  "pre_import_backup_enabled": true, 
+  "profile": "default", 
+  "projections": {}, 
+  "show_completion_popup": true, 
+  "verbose_logging": true, 
+  "version": 1, 
+  "view_root": null
+}

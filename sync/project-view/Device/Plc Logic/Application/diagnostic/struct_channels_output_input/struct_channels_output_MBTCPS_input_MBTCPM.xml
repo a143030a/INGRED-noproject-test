@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">064a1fac-31f5-442b-aed1-12553f2d3ff1</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">struct_channels_output_MBTCPS_input_MBTCPM</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">b727cc3d-9080-464a-8cb3-e29723f19049</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">2db5746d-d284-4425-9f7f-2663a34b0ebc</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136627712650052</Single>
+      </Single>
+      <Single Name="Object" Type="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" Method="IArchivable">
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TYPE struct_channels_output_MBTCPS_input_MBTCPM :</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">270</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_BOOL_ADR_1_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">271</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_BYTE_ADR_100_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">272</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_SINT_ADR_400_30SIGN_OUTPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">273</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_USINT_ADR_700_30SIGN_OUTPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">274</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_WORD_ADR_1000_30SIGN_OUTPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">275</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_INT_ADR_1500_30SIGN_OUTPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">276</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_UINT_ADR_2000_30SIGN_OUTPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">277</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_DWORD_ADR_2500_30SIGN_OUTPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">278</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_DINT_ADR_3500_30SIGN_OUTPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">279</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_DI_UDINT_ADR_4500_30SIGN_OUTPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">280</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_BOOL_ADR_5500_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">281</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_BYTE_ADR_5600_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">282</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_SINT_ADR_5900_30SIGN_OUTPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">283</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_USINT_ADR_6200_30SIGN_OUTPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">284</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_INT_ADR_6500_30SIGN_OUTPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">285</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_WORD_ADR_7000_30SIGN_OUTPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">286</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_UINT_ADR_7500_30SIGN_OUTPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">287</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_DWORD_ADR_8000_30SIGN_OUTPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">288</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_DINT_ADR_9000_30SIGN_OUTPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">289</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_COILS_UDINT_ADR_10000_30SIGN_OUTPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">290</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_BYTE_ADR_11100_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">291</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_DINT_ADR_11200_30SIGN_OUTPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">292</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_BOOL_ADR_11000_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">293</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_DWORD_ADR_11300_30SIGN_OUTPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">294</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_INT_ADR_11400_30SIGN_OUTPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">295</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_LREAL_ADR_11700_30SIGN_OUTPUT : POINTER TO LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">296</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_LINT_ADR_11500_30SIGN_OUTPUT : POINTER TO LINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">297</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_LWORD_ADR_11900_30SIGN_OUTPUT : POINTER TO LWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">298</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_REAL_ADR_12100_30SIGN_OUTPUT : POINTER TO REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">299</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_SINT_ADR_12200_30SIGN_OUTPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">300</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_UDINT_ADR_12300_30SIGN_OUTPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">301</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_USINT_ADR_12500_30SIGN_OUTPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">302</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_UINT_ADR_12400_30SIGN_OUTPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">303</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_IR_WORD_ADR_12600_30SIGN_OUTPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">304</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_BOOL_ADR_12700_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">305</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_BYTE_ADR_12800_30SIGN_OUTPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">306</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_DINT_ADR_12900_30SIGN_OUTPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">307</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_DWORD_ADR_13000_30SIGN_OUTPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">308</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_INT_ADR_13100_30SIGN_OUTPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">309</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_LINT_ADR_13200_30SIGN_OUTPUT : POINTER TO LINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">310</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_LREAL_ADR_13400_30SIGN_OUTPUT : POINTER TO LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">311</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_LWORD_ADR_13600_30SIGN_OUTPUT : POINTER TO LWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">312</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_REAL_ADR_13800_30SIGN_OUTPUT : POINTER TO REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">313</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_SINT_ADR_13900_30SIGN_OUTPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">314</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_UDINT_ADR_14000_30SIGN_OUTPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">315</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_UINT_ADR_14100_30SIGN_OUTPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">316</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_USINT_ADR_14200_30SIGN_OUTPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">174</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPS_HR_WORD_ADR_14300_30SIGN_OUTPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">317</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">319</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_BOOL_ADR_1_30SIGN_INPUT : POINTER TO BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">320</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_BYTE_ADR_100_30SIGN_INPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">321</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_SINT_ADR_400_30SIGN_INPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">322</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_USINT_ADR_700_30SIGN_INPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">323</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_WORD_ADR_1000_30SIGN_INPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">324</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_INT_ADR_1500_30SIGN_INPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">325</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_UINT_ADR_2000_30SIGN_INPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">326</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_DWORD_ADR_2500_30SIGN_INPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">327</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_DINT_ADR_3500_30SIGN_INPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">328</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_DI_UDINT_ADR_4500_30SIGN_INPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">329</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_BOOL_ADR_5500_30SIGN_INPUT : POINTER TO BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">330</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_BYTE_ADR_5600_30SIGN_INPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">331</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_SINT_ADR_5900_30SIGN_INPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">332</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_USINT_ADR_6200_30SIGN_INPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">333</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_INT_ADR_6500_30SIGN_INPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">334</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_WORD_ADR_7000_30SIGN_INPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">335</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_UINT_ADR_7500_30SIGN_INPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">336</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_DWORD_ADR_8000_30SIGN_INPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">337</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_DINT_ADR_9000_30SIGN_INPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">338</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_COILS_UDINT_ADR_10000_30SIGN_INPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">339</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_BOOL_ADR_11000_30SIGN_INPUT : POINTER TO BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">340</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_BYTE_ADR_11100_30SIGN_INPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">341</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_DINT_ADR_11200_30SIGN_INPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">342</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_DWORD_ADR_11300_30SIGN_INPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">343</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_INT_ADR_11400_30SIGN_INPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">344</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_LINT_ADR_11500_30SIGN_INPUT : POINTER TO LINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">345</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_LREAL_ADR_11700_30SIGN_INPUT : POINTER TO LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">346</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_LWORD_ADR_11900_30SIGN_INPUT : POINTER TO LWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">347</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_REAL_ADR_12100_30SIGN_INPUT : POINTER TO REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">348</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_SINT_ADR_12200_30SIGN_INPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">349</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_UDINT_ADR_12300_30SIGN_INPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">350</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_UINT_ADR_12400_30SIGN_INPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">351</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_USINT_ADR_12500_30SIGN_INPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">352</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_IR_WORD_ADR_12600_30SIGN_INPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">353</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_BOOL_ADR_12700_30SIGN_INPUT : POINTER TO BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">354</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_BYTE_ADR_12800_30SIGN_INPUT : POINTER TO BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">355</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_DINT_ADR_12900_30SIGN_INPUT : POINTER TO DINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">356</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_DWORD_ADR_13000_30SIGN_INPUT : POINTER TO DWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">357</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_INT_ADR_13100_30SIGN_INPUT : POINTER TO INT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">358</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_LINT_ADR_13200_30SIGN_INPUT : POINTER TO LINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">359</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_LREAL_ADR_13400_30SIGN_INPUT : POINTER TO LREAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">360</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_LWORD_ADR_13600_30SIGN_INPUT : POINTER TO LWORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">361</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_REAL_ADR_13800_30SIGN_INPUT : POINTER TO REAL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">362</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_SINT_ADR_13900_30SIGN_INPUT : POINTER TO SINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">363</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_UDINT_ADR_14000_30SIGN_INPUT : POINTER TO UDINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">364</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_UINT_ADR_14100_30SIGN_INPUT : POINTER TO UINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">365</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_USINT_ADR_14200_30SIGN_INPUT : POINTER TO USINT;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">318</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBTCPM_HR_WORD_ADR_14300_30SIGN_INPUT : POINTER TO WORD;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_TYPE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">365</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">b727cc3d-9080-464a-8cb3-e29723f19049</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">diagnostic</Single>
+        <Single Type="string">struct_channels_output_input</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

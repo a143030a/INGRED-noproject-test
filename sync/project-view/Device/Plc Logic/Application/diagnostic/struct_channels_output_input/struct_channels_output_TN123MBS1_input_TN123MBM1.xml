@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">87d56e0f-de0d-4795-bcbb-bb8042cdef0b</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">struct_channels_output_TN123MBS1_input_TN123MBM1</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">b727cc3d-9080-464a-8cb3-e29723f19049</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">2db5746d-d284-4425-9f7f-2663a34b0ebc</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136627712560353</Single>
+      </Single>
+      <Single Name="Object" Type="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" Method="IArchivable">
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TYPE struct_channels_output_TN123MBS1_input_TN123MBM1 :</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_DI_OUTPUT_STR_BOOL_5 : POINTER TO Str_Bool;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">10</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_COILS_OUTPUT_STR_BOOL_5 : POINTER TO Str_Bool;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">11</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_WORD_5 : POINTER TO Str_Word;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">12</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_UINT_5 : POINTER TO Str_Uint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">13</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_UDINT_5 : POINTER TO Str_Udint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">14</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_REAL_5 : POINTER TO Str_Real;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">15</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_INT_5 : POINTER TO Str_Int;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">16</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_IR_OUTPUT_STR_DOUBLE_5 : POINTER TO Str_Double;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">20</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_DOUBLE_5 : POINTER TO Str_Double;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">21</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_INT_5 : POINTER TO Str_Int;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">22</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_REAL_5 : POINTER TO Str_Real;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">23</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_UDINT_5 : POINTER TO Str_Udint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">24</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_UINT_5 : POINTER TO Str_Uint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">25</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBS_CH1_HR_OUTPUT_STR_WORD_5 : POINTER TO Str_Word;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">31</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">46</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_DI_INPUT_STR_BOOL_5 : POINTER TO Str_Bool;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">47</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_COILS_INPUT_STR_BOOL_5 : POINTER TO Str_Bool;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">50</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_DOUBLE_5 : POINTER TO Str_Double;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">51</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_INT_5 : POINTER TO Str_Int;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">52</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_REAL_5 : POINTER TO Str_Real;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">53</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_WORD_5 : POINTER TO Str_Word;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">54</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_UINT_5 : POINTER TO Str_Uint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">55</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_IR_INPUT_STR_UDINT_5 : POINTER TO Str_Udint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">56</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_REAL_5 : POINTER TO Str_Real;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">57</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_INT_5 : POINTER TO Str_Int;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">58</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_DOUBLE_5 : POINTER TO Str_Double;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">65</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_WORD_5 : POINTER TO Str_Word;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">66</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_UINT_5 : POINTER TO Str_Uint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">67</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	MBM_CH1_HR_INPUT_STR_UDINT_5 : POINTER TO Str_Udint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">70</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">71</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	ch_1_test : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_TYPE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">72</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">b727cc3d-9080-464a-8cb3-e29723f19049</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">diagnostic</Single>
+        <Single Type="string">struct_channels_output_input</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

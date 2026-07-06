@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">0a2cd2d5-f3e1-45cf-924d-6c19c1f4b5c7</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">init_struct_pointers_out_arrays_TD114_output</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">0d440a1b-3f19-49f2-9d4b-ed6556335aa4</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136651093802097</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">741</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// td114</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">742</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">743</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_1 := ADR(GVL_TD114.DigOut_1);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">744</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_1_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">745</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_2 := ADR(GVL_TD114.DigOut_2);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">746</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_2_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">747</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_3 := ADR(GVL_TD114.DigOut_3);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">748</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_3_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">749</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_4 := ADR(GVL_TD114.DigOut_4);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">750</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_4_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">751</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_5 := ADR(GVL_TD114.DigOut_5);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">752</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_5_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">753</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_6 := ADR(GVL_TD114.DigOut_6);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">754</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_6_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">755</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_7 := ADR(GVL_TD114.DigOut_7);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">756</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_7_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">757</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].POINTER_DigOut_8 := ADR(GVL_TD114.DigOut_8);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">758</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[1].DigOut_8_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">759</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">760</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_1 := ADR(GVL_TD114_1.DigOut_1);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">761</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_1_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">762</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_2 := ADR(GVL_TD114_1.DigOut_2);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">763</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_2_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">764</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_3 := ADR(GVL_TD114_1.DigOut_3);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">765</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_3_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">766</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_4 := ADR(GVL_TD114_1.DigOut_4);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">767</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_4_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">768</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_5 := ADR(GVL_TD114_1.DigOut_5);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">769</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_5_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">770</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_6 := ADR(GVL_TD114_1.DigOut_6);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">771</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_6_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">772</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_7 := ADR(GVL_TD114_1.DigOut_7);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">773</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_7_for_ta112 := FALSE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">774</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].POINTER_DigOut_8 := ADR(GVL_TD114_1.DigOut_8);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">775</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_workers_value_TD_test.struct_all_td_output.td114[2].DigOut_8_for_ta112 := FALSE;</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">626</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION init_struct_pointers_out_arrays_TD114_output : BOOL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">627</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">628</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">629</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">630</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">631</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">843</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">0d440a1b-3f19-49f2-9d4b-ed6556335aa4</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">td_output_test</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

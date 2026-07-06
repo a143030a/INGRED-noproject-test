@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">35ad0eac-c853-4674-af22-167ac486c986</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">struct_pointers_out_arrays_td114</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">0d440a1b-3f19-49f2-9d4b-ed6556335aa4</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">2db5746d-d284-4425-9f7f-2663a34b0ebc</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136627713028786</Single>
+      </Single>
+      <Single Name="Object" Type="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" Method="IArchivable">
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">107</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TYPE struct_pointers_out_arrays_td114 :</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">108</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">156</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">140</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_1 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">141</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_1_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">142</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_2 : POINTER TO Str_Byte;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">143</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_2_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">144</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_3 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">145</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_3_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">146</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_4 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">147</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_4_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">148</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_5 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">149</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_5_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">150</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_6 : POINTER TO Str_Byte;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">151</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_6_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">152</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_7 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">153</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_7_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">154</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	POINTER_DigOut_8 : POINTER TO Str_Byte;	//</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">155</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	DigOut_8_for_ta112 : BOOL;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">121</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">122</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">123</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_TYPE</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">156</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">0d440a1b-3f19-49f2-9d4b-ed6556335aa4</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">td_output_test</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

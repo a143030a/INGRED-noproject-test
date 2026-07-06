@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">23fc5d53-13dc-4bd0-a9f0-dfdb1657a5c0</Single>
+        <Single Name="ParentGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+        <Single Name="Name" Type="string">MappingSettings</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">9001d745-b9c5-4d77-90b7-b29c3f77a23b</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639135964765376976</Single>
+      </Single>
+      <Single Name="Object" Type="{9001d745-b9c5-4d77-90b7-b29c3f77a23b}" Method="IArchivable">
+        <Single Name="AutoUpdateMode" Type="string">Prompt</Single>
+        <Array Name="Data" Type="byte">PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8TWFwcGluZ1NldHRpbmdzIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPg0KICA8RWRpdG9yRm9udFNpemU+MTA8L0VkaXRvckZvbnRTaXplPg0KPC9NYXBwaW5nU2V0dGluZ3M+</Array>
+        <Single Name="LastModification" Type="System.DateTime" />
+        <Single Name="Frozen" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      <Array Name="Path" Type="string" />
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

@@ -1,0 +1,1370 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">096286fb-8d8d-49a1-9524-599de95fc85b</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">ExtMainContextStruct</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">10c04764-a3d4-4b58-be42-91f9f0497c4e</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">2db5746d-d284-4425-9f7f-2663a34b0ebc</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136627411778707</Single>
+      </Single>
+      <Single Name="Object" Type="{2db5746d-d284-4425-9f7f-2663a34b0ebc}" Method="IArchivable">
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">(* сгенерировано автоматически, правки не допустимы *)</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">TYPE ExtMainContextStruct :</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TC112_A8_100_5ETH_mstatus:ARRAY[0..SIZEOF(UDINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TC112_A8_100_5ETH_cstatus:ARRAY[0..SIZEOF(UDINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TC112_A8_100_5ETH_chstat:ARRAY[0..SIZEOF(chstat) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TC112_A8_100_5ETH_libstat:ARRAY[0..SIZEOF(libstat) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">9</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_rx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">10</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_tx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">11</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_rx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">12</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_tx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">13</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_rx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">14</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_tx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">15</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_rx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">16</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_tx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">17</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan1_LinkStatus:ARRAY[0..SIZEOF(BOOL) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">18</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_rx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">19</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_tx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">20</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_rx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">21</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_tx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">22</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_rx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">23</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_tx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">24</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_rx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">25</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_tx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">26</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan2_LinkStatus:ARRAY[0..SIZEOF(BOOL) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">27</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_rx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">28</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_tx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">29</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_rx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">30</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_tx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">31</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_rx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">32</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_tx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">33</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_rx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">34</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_tx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">35</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan3_LinkStatus:ARRAY[0..SIZEOF(BOOL) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">36</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan4_BusStat:ARRAY[0..SIZEOF(busstat) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">37</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan4_BusStatExt:ARRAY[0..SIZEOF(busstat_ext) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">38</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan4_LinkStatus:ARRAY[0..SIZEOF(BOOL) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">39</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_rx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">40</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_tx_packets:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">41</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_rx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">42</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_tx_bytes:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">43</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_rx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">44</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_tx_errors:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">45</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_rx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">46</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_tx_dropped:ARRAY[0..SIZEOF(ULINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">47</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Lan5_LinkStatus:ARRAY[0..SIZEOF(BOOL) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">48</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_MainLed:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">49</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_ResLed:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">50</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_CPU_POWER_GOOD:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">51</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_CPUPGMain:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">52</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_CPUPGRes:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">53</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_WDTSwitch:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">54</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_DipSwitch:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">55</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_Switch:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">56</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_Peripheral_SDOn:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">57</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_Link1:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">58</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_Link2:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">59</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_mstatus:ARRAY[0..SIZEOF(TRMStatusUDINTAsBitsUNION) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">60</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">61</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">62</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">63</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">64</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">65</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">66</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">67</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOut_8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">68</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">69</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">70</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">71</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">72</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">73</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">74</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">75</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_DigOutState_8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">76</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsTUModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">77</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">78</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">79</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">80</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">81</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">82</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">83</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">84</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">85</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">86</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">87</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">88</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">89</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">90</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">91</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_DigIn8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">92</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_Diag_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">93</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">94</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">95</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">96</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">97</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">98</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">99</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">100</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">101</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">102</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">103</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">104</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">105</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">106</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">107</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn1_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">108</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn2_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">109</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn3_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">110</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn4_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">111</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn5_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">112</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn6_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">113</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn7_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">114</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_AnalIn8_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">115</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">116</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">117</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">118</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">119</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">120</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">121</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">122</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">123</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">124</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">125</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">126</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">127</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">128</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">129</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">130</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_2:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">131</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_3:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">132</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_4:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">133</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_5:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">134</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_6:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">135</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_7:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">136</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_Out_8:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">137</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">138</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_2:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">139</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_3:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">140</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_4:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">141</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_5:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">142</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_6:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">143</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_7:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">144</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_SigDAC_8:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">145</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">146</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">147</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">148</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">149</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">150</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">151</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">152</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">153</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">154</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">155</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">156</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">157</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">158</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">159</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_1_Link1:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">160</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_1_Link2:ARRAY[0..SIZEOF(BYTE) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">161</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TR111_1_mstatus:ARRAY[0..SIZEOF(TRMStatusUDINTAsBitsUNION) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">162</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">163</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">164</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">165</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">166</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">167</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">168</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">169</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOut_8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">170</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">171</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">172</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">173</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">174</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">175</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">176</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">177</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_DigOutState_8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">178</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsTUModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">179</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">180</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">181</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">182</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">183</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">184</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">185</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD114_1_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">186</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">187</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn2:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">188</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn3:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">189</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn4:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">190</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn5:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">191</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn6:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">192</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn7:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">193</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_DigIn8:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">194</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_Diag_1:ARRAY[0..SIZEOF(Str_Byte) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">195</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">196</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">197</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">198</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">199</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">200</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">201</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">202</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">203</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">204</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">205</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">206</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">207</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">208</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TD115_1_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">209</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn1_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">210</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn2_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">211</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn3_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">212</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn4_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">213</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn5_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">214</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn6_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">215</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn7_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">216</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_AnalIn8_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">217</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">218</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">219</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">220</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">221</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">222</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">223</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">224</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">225</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">226</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">227</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">228</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">229</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">230</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA116_8_1_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">231</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">232</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_2:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">233</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_3:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">234</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_4:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">235</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_5:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">236</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_6:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">237</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_7:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">238</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_Out_8:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">239</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_1:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">240</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_2:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">241</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_3:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">242</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_4:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">243</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_5:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">244</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_6:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">245</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_7:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">246</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_SigDAC_8:ARRAY[0..SIZEOF(Str_Real) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">247</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_MStatus:ARRAY[0..SIZEOF(Str_WordAsBitsFifoModule) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">248</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntRes:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">249</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_RealIdSoft:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">250</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_RealIdHard:ARRAY[0..SIZEOF(Str_Uint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">251</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_rx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">252</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_tx_overflow:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">253</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_TRLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">254</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_TCLostDataCnt:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">255</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntRxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">256</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntTxErr:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">257</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntRxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">258</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntTxFifo:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">259</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntRxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">260</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_TA114_1_CntTxBusy:ARRAY[0..SIZEOF(Str_Udint) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">261</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_tsync_cstatus:ARRAY[0..SIZEOF(UDINT) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">262</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_tsync_chstat:ARRAY[0..SIZEOF(chstat) - 1] OF BYTE;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">263</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_tsync_libstat:ARRAY[0..SIZEOF(libstat) - 1] OF BYTE;END_STRUCT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_TYPE;</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">263</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">10c04764-a3d4-4b58-be42-91f9f0497c4e</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">GENERIC</Single>
+        <Single Type="string">REDUNDANCY</Single>
+        <Single Type="string">TYPES</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

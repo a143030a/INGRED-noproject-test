@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">057a0874-a866-4af8-8758-6db6461c8f14</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">increase_output_all_Ta114_voltage_output</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">15646138-fc13-423d-989c-8a65f723f113</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136627712799553</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">29</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FOR i := 1 TO GVL_number_of_devices.number_of_TA114_voltage BY 1 DO</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">131</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_1^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">132</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_1^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">133</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_2^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">134</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_2^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">135</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_3^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">136</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_3^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">137</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_4^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">138</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_4^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">139</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_5^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">140</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_5^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">141</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_6^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">142</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_6^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">143</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_7^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">144</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_7^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">145</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_8^.value := GVL_workers_value_TA_test.value_nagruzka_voltage_ta_out;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">51</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	GVL_workers_value_TA_test.struct_all_ta_voltage.ta114_voltage[i].POINTER_Out_8^.control := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">27</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_FOR</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">125</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION increase_output_all_Ta114_voltage_output : BOOL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">126</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">127</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">128</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">129</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	i : usint ;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">130</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">145</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">15646138-fc13-423d-989c-8a65f723f113</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">ta113_ta114_output_nagruzka</Single>
+        <Single Type="string">ta_113_114_voltage</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

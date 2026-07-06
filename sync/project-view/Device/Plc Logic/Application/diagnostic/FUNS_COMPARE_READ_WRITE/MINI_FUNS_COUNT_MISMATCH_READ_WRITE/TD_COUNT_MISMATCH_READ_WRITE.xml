@@ -1,0 +1,1426 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">2a95b8f8-1095-40e7-8e34-95c88b7ff0d1</Single>
+        <Single Name="ParentGuid" Type="System.Guid">458bb7ba-09b4-4dfc-aa95-620a073fdede</Single>
+        <Single Name="Name" Type="string">TD_COUNT_MISMATCH_READ_WRITE</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">829a18f2-c514-4f6e-9634-1df173429203</Single>
+            </Key>
+            <Value>
+              <Single Type="{829a18f2-c514-4f6e-9634-1df173429203}" Method="IArchivable">
+                <Dictionary Type="{fa2ee218-a39b-4b6d-b249-49dbddbd168a}" Name="ParentObjects">
+                  <Entry>
+                    <Key>
+                      <Single Type="System.Guid">d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84</Single>
+                    </Key>
+                    <Value>
+                      <Single Type="System.Guid">c3165d4d-a248-454c-a6e4-85214028466c</Single>
+                    </Value>
+                  </Entry>
+                </Dictionary>
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">6f9dac99-8de1-4efc-8465-68ac443b7d08</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639136647354328852</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+        <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">317</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FOR i := 1 TO ( (SIZEOF (GVL_relation_modules.output_TD114_input_TD) ) </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">318</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">/ (SIZEOF (GVL_relation_modules.output_TD114_input_TD[1]) ) ) DO</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">319</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">320</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_1_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_1_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">321</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn1^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_1^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">322</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_1 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">323</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_1 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">324</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">325</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_1';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">326</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">327</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn1_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">328</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">329</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_1_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">330</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">331</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn1^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">332</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">333</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_1^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">334</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">335</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn1_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">336</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">337</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_1_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">338</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">339</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">340</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">341</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">342</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">343</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">344</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">345</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">346</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">347</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">348</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">349</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">350</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_2_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_2_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">351</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn2^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_2^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">352</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_2 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">353</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_2 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">354</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">355</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_2';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">356</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">357</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn2_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">358</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">359</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_2_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">360</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">361</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn2^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">362</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">363</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_2^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">364</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">365</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn2_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">366</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">367</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_2_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">368</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">369</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">370</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">371</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">372</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">373</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">374</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">375</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">376</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">377</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">378</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">379</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">380</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_3_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_3_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">381</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn3^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_3^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">382</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_3 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">383</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_3 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">384</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">385</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_3';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">386</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">387</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn3_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">388</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">389</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_3_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">390</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">391</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn3^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">392</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">393</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_3^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">394</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">395</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn3_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">396</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">397</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_3_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">398</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">399</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">400</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">401</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">402</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">403</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">404</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">405</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">406</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">407</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">408</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">409</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">410</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_4_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_4_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">411</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn4^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_4^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">412</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_4 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">413</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_4 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">414</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">415</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_4';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">416</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">417</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn4_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">418</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">419</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_4_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">420</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">421</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn4^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">422</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">423</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_4^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">424</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">425</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn4_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">426</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">427</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_4_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">428</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">429</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">430</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">431</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">432</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">433</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">434</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">435</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">436</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">437</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">438</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">439</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">440</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_5_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_5_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">441</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn5^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_5^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">442</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_5 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">443</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_5 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">444</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">445</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_5';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">446</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">447</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn5_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">448</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">449</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_5_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">450</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">451</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn5^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">452</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">453</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_5^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">454</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">455</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn5_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">456</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">457</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_5_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">458</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">459</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">460</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">461</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">462</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">463</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">464</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">465</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">466</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">467</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">468</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">469</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">470</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_6_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_6_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">471</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn6^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_6^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">472</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_6 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">473</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_6 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">474</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">475</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_6';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">476</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">477</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn6_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">478</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">479</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_6_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">480</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">481</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn6^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">482</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">483</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_6^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">484</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">485</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn6_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">486</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">487</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_6_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">488</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">489</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">490</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">491</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">492</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">493</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">494</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">495</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">496</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">497</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">498</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">499</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">500</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_7_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_7_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">501</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn7^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_7^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">502</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_7 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">503</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_7 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">504</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">505</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_7';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">506</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">507</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn7_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">508</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">509</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_7_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">510</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">511</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn7^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">512</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">513</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_7^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">514</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">515</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn7_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">516</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">517</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_7_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">518</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">519</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">520</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">521</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">522</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">523</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">524</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">525</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">526</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">527</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">528</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">529</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">530</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	IF ( ( GVL_relation_modules.output_TD114_input_TD[i].ch_8_test = TRUE ) AND ( GVL_relation_modules.output_TD114_input_TD[i].DigOut_8_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">531</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		IF ( GVL_relation_modules.output_TD114_input_TD[i].DigIn8^.value &lt;&gt; GVL_relation_modules.output_TD114_input_TD[i].DigOut_8^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">532</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_8 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">533</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">GVL_compare_read_write_modules.count_mismatch_output_TD114_input_TD[i].DigOut_8 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">534</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">535</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].ch_name := 'Dig_8';</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">536</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">537</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn8_module_name_input;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">538</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].module_name_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">539</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_8_module_name_output;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">540</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">541</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn8^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">542</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].value_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">543</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_8^.value;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">544</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_input :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">545</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigIn8_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">546</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].old_module_output :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">547</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_relation_modules.output_TD114_input_TD[i].DigOut_8_old_module;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">548</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		GVL_compare_read_write_modules.logs_struct_discrete_moudles_logs_errors[GVL_compare_read_write_modules.iterator_logs].time_error :=</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">549</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		SysRtcGetTime(TRUE);</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">550</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">551</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			GVL_compare_read_write_modules.iterator_logs := GVL_compare_read_write_modules.iterator_logs + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">552</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">553</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			IF ( GVL_compare_read_write_modules.iterator_logs = 10000 ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">554</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">				GVL_compare_read_write_modules.iterator_logs := 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">555</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">			END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">556</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">557</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">558</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">559</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">560</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_FOR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">561</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">562</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// FOR i := 1 TO ( (SIZEOF (GVL_relation_modules.output_TD116_input_TD) ) </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">563</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// / (SIZEOF (GVL_relation_modules.output_TD116_input_TD[1]) ) ) DO</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">564</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">565</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	IF ( ( GVL_relation_modules.output_TD116_input_TD[i].ch_1_test = TRUE ) AND ( GVL_relation_modules.output_TD116_input_TD[i].DigOut_1_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">566</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 		IF ( GVL_relation_modules.output_TD116_input_TD[i].DigIn1^.value &lt;&gt; GVL_relation_modules.output_TD116_input_TD[i].DigOut_1^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">567</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 			GVL_compare_read_write_modules.count_mismatch_output_TD116_input_TD[i].DigOut_1 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">568</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// GVL_compare_read_write_modules.count_mismatch_output_TD116_input_TD[i].DigOut_1 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">569</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">570</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">571</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">572</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	IF ( ( GVL_relation_modules.output_TD116_input_TD[i].ch_2_test = TRUE ) AND ( GVL_relation_modules.output_TD116_input_TD[i].DigOut_2_for_ta112 = FALSE ) ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">573</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 		IF ( GVL_relation_modules.output_TD116_input_TD[i].DigIn2^.value &lt;&gt; GVL_relation_modules.output_TD116_input_TD[i].DigOut_2^.value ) THEN</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">574</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 			GVL_compare_read_write_modules.count_mismatch_output_TD116_input_TD[i].DigOut_2 := </Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">575</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// GVL_compare_read_write_modules.count_mismatch_output_TD116_input_TD[i].DigOut_2 + 1;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">576</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 		END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">577</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 	END_IF</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">578</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// 		</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">579</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">// END_FOR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">580</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">7</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">sync_data_test.struct_check_send_all_data.check_send_td := FALSE;</Single>
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Array Name="TextLines" Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}">
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">2</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">FUNCTION TD_COUNT_MISMATCH_READ_WRITE : BOOL</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">3</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR_INPUT</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">4</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">5</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">8</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">	i : uint;</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">6</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string">END_VAR</Single>
+              </Single>
+              <Single Type="{a5de0b0b-1cb5-4913-ac21-9d70293ec00d}" Method="IArchivable">
+                <Single Name="Id" Type="long">1</Single>
+                <Null Name="Tag" />
+                <Single Name="Text" Type="string" />
+              </Single>
+            </Array>
+          </Single>
+        </Single>
+        <Single Name="UniqueIdGenerator" Type="string">580</Single>
+        <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+        <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+        <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">c3165d4d-a248-454c-a6e4-85214028466c</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">Device</Single>
+        <Single Type="string">Plc Logic</Single>
+        <Single Type="string">Application</Single>
+        <Single Type="string">diagnostic</Single>
+        <Single Type="string">FUNS_COMPARE_READ_WRITE</Single>
+        <Single Type="string">MINI_FUNS_COUNT_MISMATCH_READ_WRITE</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    
