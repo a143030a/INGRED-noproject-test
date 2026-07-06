@@ -8,7 +8,7 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">085afe48-c5d8-4ea5-ab0d-b35701fa6009</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639189492439688639</Single>
+        <Single Name="Timestamp" Type="long">639189496556261969</Single>
       </Single>
       <Single Name="Object" Type="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" Method="IArchivable">
         <Dictionary Type="System.Collections.Hashtable" Name="Properties">
@@ -25,7 +25,7 @@
               <Single Type="string">cds-sync-folder</Single>
             </Key>
             <Value>
-              <Single Type="string">C:\INGRED-server\sync</Single>
+              <Single Type="string">C:\INGRED-dev1\sync</Single>
             </Value>
           </Entry>
         </Dictionary>

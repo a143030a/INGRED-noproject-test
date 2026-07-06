@@ -1,5 +1,5 @@
 {
-  "created": "2026-07-06T15:41:05",
+  "created": "2026-07-06T15:49:48",
   "view_root": "project-view",
   "ns": "",
   "entries": [
@@ -71,7 +71,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "POUs\\Project Information.xml",
-      "hash": "5a426009703d95ff963bdc37b80abdf543657a88"
+      "hash": "c86645b83402487119037ac964411dc20d39a9c9"
     },
     {
       "guid": "b9282e15-c5f9-4491-a1b5-b8f6b59b5723",
@@ -239,7 +239,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "Device\\Plc Logic\\Application\\PLC_PRG.xml",
-      "hash": "04a3d50696c5224e12623a85c48d455996b9a7e8"
+      "hash": "35302a8a6699af70e62bac3a9d5b7b63f1490c4f"
     },
     {
       "guid": "051d5c1f-e935-4a8b-aa36-cd332c3d6f24",
@@ -324,6 +324,20 @@
       },
       "xml_path": "Device\\Plc Logic\\Application\\sync_data_test.xml",
       "hash": "e474acf0a10d434f7b1bc50bbd22532e208ca0c6"
+    },
+    {
+      "guid": "b4c1e0ad-9b8e-4a16-844c-d9c62ca97763",
+      "name": "POU_new",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "458bb7ba-09b4-4dfc-aa95-620a073fdede",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "Device\\Plc Logic\\Application\\POU_new.xml",
+      "hash": "bf880da7efb2303899edeb49ccd03451586df03c"
     },
     {
       "guid": "1dd96c66-82c2-4671-94f3-002fc80775ee",

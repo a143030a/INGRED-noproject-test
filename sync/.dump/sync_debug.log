@@ -7,3 +7,29 @@
 [2026-07-06 15:41:00] Exporting from snapshot C:\INGRED-server\sync\.dump\IDE.xml to view root C:\INGRED-server\sync\project-view
 [2026-07-06 15:41:05] Export to XML folder complete.
 
+[2026-07-06 15:47:53] Exporting snapshot to: C:\INGRED-dev1\sync\.dump\IDE.xml
+
+[2026-07-06 15:47:54] command=import
+[2026-07-06 15:47:54] args=python C:\Program Files\CODESYS 3.5.16.10\CODESYS\ScriptDir\cds-text-sync\cli\external_engine\engine_cli.py import --project-root C:\INGRED-dev1\sync --snapshot C:\INGRED-dev1\sync\.dump\IDE.xml --view-root C:\INGRED-dev1\sync\project-view --patch C:\INGRED-dev1\sync\.dump\IMPORT.xml
+
+[2026-07-06 15:48:05] returncode=0
+[2026-07-06 15:47:55] Importing view root C:\INGRED-dev1\sync\project-view against snapshot C:\INGRED-dev1\sync\.dump\IDE.xml to generate C:\INGRED-dev1\sync\.dump\IMPORT.xml
+[2026-07-06 15:48:05] Compare model sizes: ide=138, disk=138
+[2026-07-06 15:48:05] Compare summary: modified=2, added=0, deleted=0, unchanged=136, projection_conflicts=0, unsupported_projection_changes=0
+[2026-07-06 15:48:05] modified: Project Information [11c0fc3a-9bcf-4dd8-ac38-efb93363e521] POUs\Project Information.xml (xml_changed=true)
+[2026-07-06 15:48:05] modified: PLC_PRG [70998732-af3a-4f96-92d1-a61e97ffdefb] Device\Plc Logic\Application\PLC_PRG.xml (xml_changed=true)
+Building patch for 2 objects...
+Patch generated at C:\INGRED-dev1\sync\.dump\IMPORT.xml
+
+[2026-07-06 15:48:05] Applying changes from C:\INGRED-dev1\sync\.dump\IMPORT.xml
+
+[2026-07-06 15:49:40] Exporting snapshot to: C:\INGRED-dev1\sync\.dump\IDE.xml
+
+[2026-07-06 15:49:41] command=export
+[2026-07-06 15:49:41] args=python C:\Program Files\CODESYS 3.5.16.10\CODESYS\ScriptDir\cds-text-sync\cli\external_engine\engine_cli.py export --project-root C:\INGRED-dev1\sync --snapshot C:\INGRED-dev1\sync\.dump\IDE.xml --view-root C:\INGRED-dev1\sync\project-view
+
+[2026-07-06 15:49:48] returncode=0
+[2026-07-06 15:49:42] Exporting from snapshot C:\INGRED-dev1\sync\.dump\IDE.xml to view root C:\INGRED-dev1\sync\project-view
+[2026-07-06 15:49:45] Removed 138 previously managed view files.
+[2026-07-06 15:49:48] Export to XML folder complete.
+
